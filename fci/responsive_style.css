@@ -1,0 +1,34 @@
+/*----------Desktop------------*/
+@media (min-width:980px){
+     .nav-hadding-position-control ul{float: right;}
+     .nav ul li{display:inline-block;}
+     .nav ul{display:block !important;}
+     .quality_creativity_basic_info{margin: 0px auto;width: 52%;}
+}
+/*----------Tab------------*/
+@media (min-width:768px) and (max-width:979px){
+    .nav-hadding-position-control ul{float: right;}
+     .nav-hadding-masage{padding:0px;}
+     .nav ul li{display:inline-block;}
+     .nav ul{display:block !important;}
+     .quality_creativity_basic_info{margin: 0px auto;width:70%;}
+}
+/*----------Width Mobile------------*/
+@media (min-width:480px) and (max-width:767px){
+     .nav-hadding-position-control{margin:0px auto; width:30%;}
+     .nav-hadding-position-control ul{float:none;}
+     .nav ul{display:none;text-align: center;}
+     .nav ul li{display: block;}
+     .nav{min-height: 120px;}
+     .quality_creativity_basic_info{margin: 0px auto;width:80%;}
+}
+/*----------Small Mobile------------*/
+@media (max-width:479px){
+     .nav-hadding-position-control{margin:0px auto; width:50%;}
+     .nav-hadding-position-control ul{float:none;}
+     .nav ul{display:none;text-align: center;}
+     .nav ul li{display: block;}
+     .nav{min-height: 120px;}
+     .quality_creativity_basic_info{margin: 0px auto;width:90%;}
+     
+}
